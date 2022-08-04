@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Roboto:wght@500&display=swap");
+
+/* -------------body and background-image----------------- */
+
+body {
+  /* background-image: url(/assets/pexels-maxyne-barcel-10402282\ 1.png) ; */
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(3, 32, 60, 0.8) 100%, rgba(0, 0, 0, 0.5) 50%),
+    url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+  margin: 0px auto !important;
+  background-size: cover;
+
+  
+}
+
+/* -------------container----------------- */
+
+.container {
+  width: 100%;
+  background-image: ;
+}
+
+/* ---------- NAVBAR ------------ */
+
+nav {
+  background-color: transparent;
+
+  padding: 2em 2.5em;
+  border-radius: 20px;
+
+  margin-top: 50px;
+  margin-left: 0px;
+  float: left;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+  float: left;
+}
+
+.list-item {
+  float: left;
+  position: relative;
+  color: #f7cd2e;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 27px;
+  top: -110px;
+  left: 450px;
+  list-style: none;
+  font-family: montserrat;
+  cursor: grab;
+}
+
+.button-small {
+  position: relative;
+  float: right;
+  top: -180px;
+  right: -1000px;
+  background-color: #e6425e;
+  border: none;
+  font-size: 24px;
+  padding: 0.5em 1.5em;
+  font-family: montserrat;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: grab;
+}
+
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+
+.hero {
+  position: fixed;
+  bottom: 100px;
+  right: 300px;
+}
+
+.hero-heading {
+  font-size: 130px;
+  line-height: 140px;
+  font-weight: 900;
+  color: #f7cd2e;
+  text-align: center;
+  font-family: montserrat;
+  letter-spacing: 2px;
+}
+
+.button-large {
+  position: fixed;
+  float: right;
+  bottom: 50px;
+  right: 800px;
+  background-color: #e6425e;
+  border: none;
+  font-size: 30px;
+  padding: 1em 1.5em;
+  font-family: montserrat;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: grab;
+}
+
+/* ------------------------------ */
